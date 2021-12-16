@@ -41,11 +41,14 @@ INSTALLED_APPS = [
     # Local
     'users.apps.UsersConfig', # new
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
 
     # 3rd party
 
     'crispy_forms',
 ]
+
+TIME_ZONE = 'Asia/Calcutta'
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
